@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Sidebar from './Components/Sidebar';
 import Creargrupos from './pages/Creargrupos';
+import { ChakraProvider } from '@chakra-ui/react'
 import CreateGroup from './Components/CreateGroup';
 //import Navbar from './Components/Navbar';
 import VerEmpleados from './pages/VerEmpleados';

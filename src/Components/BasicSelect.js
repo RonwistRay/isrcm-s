@@ -19,10 +19,16 @@ export default function BasicSelect() {
             id: 'uncontrolled-native',
           }}
         >
-          <option value={10}>Ten</option>
-          <option value={20}>Twenty</option>
-          <option value={30}>Thirty</option>
-        </NativeSelect>
+          <option value={10}>Aplicación De Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
+          <option value={20}>Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
+          <option value={40}>Utilización De Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
+          <option value={50}>Manejo De Herramientas Actuales De Excel En El Trabajo Administrativo</option>
+          <option value={60}>Técnicas Para Aplicar Subsistemas De Administración De Rrhh</option>
+          <option value={70}>Herramientas Aplicadas A La Gestión De Rrhh Sobre La Normativa Laboral Y Previsional Vigente.</option>
+          <option value={80}>Técnicas Y Nuevas Tendencias En Rrhh</option>
+          <option value={90}>Técnicas Administrativas De Recursos Humanos, Mediante La Gestión De Personas</option>
+          <option value={100}>Aplicación De Las Herramientas De Marketing Orientadas A La Venta.</option>
+          </NativeSelect>
       </FormControl>
     </Box>
     </div>

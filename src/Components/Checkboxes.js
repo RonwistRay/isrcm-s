@@ -3,8 +3,9 @@ import Button from '@mui/material/Button';
 
 function Checkboxes() {
   return (
-    <div className='Checkboxes'>
-      <Form>
+    <div className="Checkboxes">
+      <div className="CheckboxesList">
+        <Form>
         {['checkbox', 'radio'].map((type) => (
           
             <div key={type} className="mb-3">
@@ -21,10 +22,10 @@ function Checkboxes() {
           
           
         ))}
-      <Button variant="outlined">Primary</Button> </Form>
+      <Button variant="outlined">Primary</Button></Form>
       
       
-      
+      </div>
     </div>
   );
 }

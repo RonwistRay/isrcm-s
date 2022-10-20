@@ -5,7 +5,7 @@ import Sidebar from '../Components/Sidebar'
 const Creargrupos = () => {
   return (
     
-    <div><CreateGroup/></div>
+    <div className='Creargrupos'><CreateGroup/></div>
   )
 }
 
