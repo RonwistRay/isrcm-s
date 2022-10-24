@@ -162,7 +162,7 @@ export default function ChekAñadir() {
             </Box>
            
             </div>
-           
+                        
             <Button variant="contained">Primary</Button>
         </div>
     

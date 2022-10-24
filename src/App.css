@@ -111,22 +111,25 @@ body{
 .ActiText{
   width: 100%;
   display: flex;
-  align-items: center;  
+  justify-content: center;
+  align-items: center;
 }
+
 /* Añadir empleados selector*/ 
 .ChekAñadir{
   width: 100%;
-  display: flex;
-  align-content: stretch;
   box-sizing: border-box;
   margin:0px auto; 
   padding: 10px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .AñadirEmpleado{
   background-color: #D9D9D9;
   border: 3px solid  black;
+  
 }
 
 .AñadirList{
@@ -136,11 +139,12 @@ body{
 /* Eliminar empleados selector*/ 
 .CheckEliminar{
   width: 100%;
-  display: flex;
-  align-content: stretch;
   box-sizing: border-box;
   margin:0px auto; 
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   
 }
 
@@ -165,5 +169,11 @@ body{
   border: 3px solid  black;
 }
 
+/*Boton crear grupó y limpiar todo*/
+.BotonFile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 

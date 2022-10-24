@@ -1,6 +1,5 @@
 import Form from 'react-bootstrap/Form';
-
-import * as React from 'react';
+import React, {Component} from 'react';
 import Box from '@mui/material/Box';
 import FormLabel from '@mui/material/FormLabel';
 import FormControl from '@mui/material/FormControl';
@@ -333,7 +332,8 @@ export default function CrearGrupFile() {
                 <b1>Cantidad empleados: </b1> <br></br>
                 <b1>Duracion del Curso: </b1> 
             </div>
-            <div className="aaaa">
+            <br></br>
+            <div className="BotonFile">
             <Button variant="contained">CREAR GRUPO</Button>
             <Button variant="contained" color="error" startIcon={<DeleteIcon />}>
                 LIMPIAR TODO
