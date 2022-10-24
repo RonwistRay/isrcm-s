@@ -1,24 +1,26 @@
 import React from 'react'
 import { ActiButton } from './ActiButton'
 import BasicSelect from './BasicSelect'
-import Checkboxes from './Checkboxes'
+import CheckAñadir from './CheckAñadir'
+import CheckEliminar from './CheckEliminar'
 import CheckEmpleado from './ChekEmpleado'
-
+import CrearGrupFile from './CrearGrupFile'
 
 function CreateGroup() {
   return (
     <div className="CreateGroup">
-        <ActiButton/>
         
-        <BasicSelect/>
-        <CheckEmpleado/>
-        <b1>Empleados</b1>
-        <Checkboxes/>
-        <b1>Empleados que harán curso de "____"</b1>
-        <Checkboxes/>
-
+        <CrearGrupFile/>
     </div>
   )
 }
 
 export default CreateGroup
+
+
+{/* <ActiButton/>    
+<BasicSelect/>
+<b1>Empleados</b1>
+<CheckAñadir/>
+<b1>Empleados que harán curso de "____"</b1>
+<CheckEliminar/> */}
