@@ -95,11 +95,21 @@ body{
 
 }
 /* Selector de cursos  */ 
+
+.Basic{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .BasicSelect{
   background-color: #D9D9D9;
   border: 3px solid  black;
   margin: 25px auto;
+  width: 80%;
 }
+
+
 
 /* boton*/ 
 .ActiButton{
@@ -116,46 +126,65 @@ body{
 }
 
 /* Añadir empleados selector*/ 
+.Añadir{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
 .ChekAñadir{
   width: 100%;
   box-sizing: border-box;
   margin:0px auto; 
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
 }
 
 .AñadirEmpleado{
-  background-color: #D9D9D9;
-  border: 3px solid  black;
-  
+  width: 80%;
 }
 
 .AñadirList{
   width: 100%;
   
+  background-color: #D9D9D9;
 }
+
+.BAñadir{
+  width: 99.3%;
+  height:  65px;
+  background-color: #D9D9D9;
+  border: 3px solid  black;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.BBAñadir{
+  border: 3px solid  white;
+  border-radius: 10px ;
+}
+
 /* Eliminar empleados selector*/ 
+.Eliminar{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
 .CheckEliminar{
   width: 100%;
   box-sizing: border-box;
   margin:0px auto; 
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  
 }
 
 .EliminarEmpleado{
-  background-color: #D9D9D9;
-  border: 3px solid  black;
-  width: 100%;
+  width: 80%;
 }
 
 .EliminarList{
-  width: 100%;
+  width:  100%;
+  background-color: #D9D9D9;
   
 }
 
@@ -163,17 +192,57 @@ body{
   color: aqua;
 }
 
+/*Contador de los cursos*/
+.Contador{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
 
 .CountCurso{
   background-color: #D9D9D9;
   border: 3px solid  black;
+  width: 80%;
 }
 
 /*Boton crear grupó y limpiar todo*/
 .BotonFile{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.Bcreargrupo{
+  flex-basis: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.BLimpiar{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* textos */
+.Texto{
+  
+ 
+  
+  
+}
+
+.scroll{
+  height: 400px;
+  border: 3px solid black;
+  background: #f1f1f1; 
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.borde{
+  border-bottom: 1px solid;
+}

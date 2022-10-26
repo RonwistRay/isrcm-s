@@ -62,282 +62,305 @@ export default function CrearGrupFile() {
                     </InputLabel>
                 </div>
             </div>
-            <div className="BasicSelect">
-            <Box sx={{ minWidth: 120 }}>
-            <FormControl fullWidth>
-                <InputLabel variant="standard" htmlFor="uncontrolled-native">
-                Seleccione Cursos Disponibles
-                </InputLabel>
-                <NativeSelect
-                defaultValue={30}
-                inputProps={{
-                    name: 'Seleccione Cursos Disponibles',
-                    id: 'uncontrolled-native',
-                }}
-                >
-                <option value={10}>Aplicación De Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
-                <option value={20}>Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
-                <option value={40}>Utilización De Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
-                <option value={50}>Manejo De Herramientas Actuales De Excel En El Trabajo Administrativo</option>
-                <option value={60}>Técnicas Para Aplicar Subsistemas De Administración De Rrhh</option>
-                <option value={70}>Herramientas Aplicadas A La Gestión De Rrhh Sobre La Normativa Laboral Y Previsional Vigente.</option>
-                <option value={80}>Técnicas Y Nuevas Tendencias En Rrhh</option>
-                <option value={90}>Técnicas Administrativas De Recursos Humanos, Mediante La Gestión De Personas</option>
-                <option value={100}>Aplicación De Las Herramientas De Marketing Orientadas A La Venta.</option>
-                </NativeSelect>
-            </FormControl>
-            </Box>
+            <div className="Basic">
+                <div className="BasicSelect">
+                    <Box sx={{ minWidth: 120 }}>
+                    <FormControl fullWidth>
+                        <InputLabel variant="standard" htmlFor="uncontrolled-native">
+                        Seleccione Cursos Disponibles
+                        </InputLabel>
+                        <NativeSelect
+                        defaultValue={30}
+                        inputProps={{
+                            name: 'Seleccione Cursos Disponibles',
+                            id: 'uncontrolled-native',
+                        }}
+                        >
+                        <option value={10}>Aplicación De Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
+                        <option value={20}>Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
+                        <option value={40}>Utilización De Estrategias De Mejora En El Desempeño Laboral Administrativo</option>
+                        <option value={50}>Manejo De Herramientas Actuales De Excel En El Trabajo Administrativo</option>
+                        <option value={60}>Técnicas Para Aplicar Subsistemas De Administración De Rrhh</option>
+                        <option value={70}>Herramientas Aplicadas A La Gestión De Rrhh Sobre La Normativa Laboral Y Previsional Vigente.</option>
+                        <option value={80}>Técnicas Y Nuevas Tendencias En Rrhh</option>
+                        <option value={90}>Técnicas Administrativas De Recursos Humanos, Mediante La Gestión De Personas</option>
+                        <option value={100}>Aplicación De Las Herramientas De Marketing Orientadas A La Venta.</option>
+                        </NativeSelect>
+                    </FormControl>
+                    </Box>
+                </div> 
             </div>
-            <b1>Empleados</b1>
-            <div className="AñadirEmpleado">
-            
-            <div className="AñadirList">
-            
-            <Box sx={{ display: 'flex' }}>
-                <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
-                    <FormLabel component="legend">Seleccionar empleado(s)</FormLabel>
-                    <FormGroup>
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={jeronimo} onChange={handleChange} name="jeronimo" />
-                        }
-                        label="Jeronimo García"
-                    />                
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={estefania} onChange={handleChange} name="estefania" />
-                        }
-                        label="Estefania Giménez                    "
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={guillermo} onChange={handleChange} name="guillermo" />
-                        }
-                        label="Guillermo Pérez"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={eliana} onChange={handleChange} name="eliana" />
-                        }
-                        label="Eliana Soriano"
-                    />                
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={jose} onChange={handleChange} name="jose" />
-                        }
-                        label="Jose Gutierrez"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={marcela} onChange={handleChange} name="marcela" />
-                        }
-                        label="Marcela Reina"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={daniela} onChange={handleChange} name="daniela" />
-                        }
-                        label="Daniela Ramirez"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={camargo} onChange={handleChange} name="camargo" />
-                        }
-                        label="Adriana Camargo"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={colmenares} onChange={handleChange} name="colmenares" />
-                        }
-                        label="Oscar Colmenares"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={barrero} onChange={handleChange} name="barrero" />
-                        }
-                        label="Natalia Barrero"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={ochoa} onChange={handleChange} name="ochoa" />
-                        }
-                        label="Yiriam Ochoa"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={guacas} onChange={handleChange} name="guacas" />
-                        }
-                        label="María Guacas"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={lopez} onChange={handleChange} name="lopez" />
-                        }
-                        label="Diana Lopez"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={ospina} onChange={handleChange} name="ospina" />
-                        }
-                        label="Catherine Ospina"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={muñoz} onChange={handleChange} name="muñoz" />
-                        }
-                        label="Deny MuÑOz"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={quesada} onChange={handleChange} name="quesada" />
-                        }
-                        label="Estewil Quesada"
-                    />
-                    <FormControlLabel
-                        control={
-                        <Checkbox checked={forero} onChange={handleChange} name="forero" />
-                        }
-                        label="Diego Forero"
-                    />
-                    </FormGroup>
-                    <FormHelperText>Seleccionar para añadirlo al curso</FormHelperText>
-                </FormControl> 
-            
-            </Box>
-            
+            <div className="Texto">
+            <h3>Empleados</h3>
             </div>
-                        
-            <Button variant="contained">Primary</Button>
+            <div className="Añadir"> 
+                <div className="AñadirEmpleado">      
+                    <div className="scroll">
+                        <div className="AñadirList">
+                            <Box sx={{ display: 'flex' }}>
+                                <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
+                                    <FormLabel component="legend">Seleccionar empleado(s)</FormLabel>
+                                    <FormGroup>
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={jeronimo} onChange={handleChange} name="jeronimo" />
+                                        }
+                                        label="Jeronimo García"
+                                    />                
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={estefania} onChange={handleChange} name="estefania" />
+                                        }
+                                        label="Estefania Giménez                    "
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={guillermo} onChange={handleChange} name="guillermo" />
+                                        }
+                                        label="Guillermo Pérez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={eliana} onChange={handleChange} name="eliana" />
+                                        }
+                                        label="Eliana Soriano"
+                                    />                
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={jose} onChange={handleChange} name="jose" />
+                                        }
+                                        label="Jose Gutierrez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={marcela} onChange={handleChange} name="marcela" />
+                                        }
+                                        label="Marcela Reina"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={daniela} onChange={handleChange} name="daniela" />
+                                        }
+                                        label="Daniela Ramirez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={camargo} onChange={handleChange} name="camargo" />
+                                        }
+                                        label="Adriana Camargo"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={colmenares} onChange={handleChange} name="colmenares" />
+                                        }
+                                        label="Oscar Colmenares"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={barrero} onChange={handleChange} name="barrero" />
+                                        }
+                                        label="Natalia Barrero"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={ochoa} onChange={handleChange} name="ochoa" />
+                                        }
+                                        label="Yiriam Ochoa"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={guacas} onChange={handleChange} name="guacas" />
+                                        }
+                                        label="María Guacas"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={lopez} onChange={handleChange} name="lopez" />
+                                        }
+                                        label="Diana Lopez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={ospina} onChange={handleChange} name="ospina" />
+                                        }
+                                        label="Catherine Ospina"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={muñoz} onChange={handleChange} name="muñoz" />
+                                        }
+                                        label="Deny MuÑOz"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={quesada} onChange={handleChange} name="quesada" />
+                                        }
+                                        label="Estewil Quesada"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={forero} onChange={handleChange} name="forero" />
+                                        }
+                                        label="Diego Forero"
+                                    />
+                                    </FormGroup>
+                                    <FormHelperText>Seleccionar para añadirlo al curso</FormHelperText>
+                                </FormControl> 
+                            </Box>
+                        </div>
+                    </div>
+                    <div className= "BAñadir">     
+                        <div className="BBAñadir">
+                            <Button variant="contained">Añadir a curso</Button>
+                        </div>
+                    </div> 
+                </div>
             </div>
-            <b1>Empleados que harán curso de "____"</b1>
-            <div className="EliminarEmpleado">
-                <div className="EliminarList">               
-                <Box sx={{ display: 'flex' }}>
-                    <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
-                        <FormLabel component="legend">Seleccionar empleado(s)</FormLabel>
-                        <FormGroup>
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={jeronimo} onChange={handleChange} name="jeronimo" />
-                            }
-                            label="Jeronimo García"
-                        />                
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={estefania} onChange={handleChange} name="estefania" />
-                            }
-                            label="Estefania Giménez                    "
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={guillermo} onChange={handleChange} name="guillermo" />
-                            }
-                            label="Guillermo Pérez"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={eliana} onChange={handleChange} name="eliana" />
-                            }
-                            label="Eliana Soriano"
-                        />                
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={jose} onChange={handleChange} name="jose" />
-                            }
-                            label="Jose Gutierrez"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={marcela} onChange={handleChange} name="marcela" />
-                            }
-                            label="Marcela Reina"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={daniela} onChange={handleChange} name="daniela" />
-                            }
-                            label="Daniela Ramirez"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={camargo} onChange={handleChange} name="camargo" />
-                            }
-                            label="Adriana Camargo"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={colmenares} onChange={handleChange} name="colmenares" />
-                            }
-                            label="Oscar Colmenares"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={barrero} onChange={handleChange} name="barrero" />
-                            }
-                            label="Natalia Barrero"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={ochoa} onChange={handleChange} name="ochoa" />
-                            }
-                            label="Yiriam Ochoa"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={guacas} onChange={handleChange} name="guacas" />
-                            }
-                            label="María Guacas"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={lopez} onChange={handleChange} name="lopez" />
-                            }
-                            label="Diana Lopez"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={ospina} onChange={handleChange} name="ospina" />
-                            }
-                            label="Catherine Ospina"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={muñoz} onChange={handleChange} name="muñoz" />
-                            }
-                            label="Deny MuÑOz"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={quesada} onChange={handleChange} name="quesada" />
-                            }
-                            label="Estewil Quesada"
-                        />
-                        <FormControlLabel
-                            control={
-                            <Checkbox checked={forero} onChange={handleChange} name="forero" />
-                            }
-                            label="Diego Forero"
-                        />
-                        </FormGroup>
-                        <FormHelperText>Seleccionar para eliminar del curso</FormHelperText>
-                    </FormControl> 
-                
-                </Box>
-                <Button variant="contained" color="error">Remover</Button>
+            <h3>Empleados que harán curso de "____"</h3>
+            <div className="Eliminar">
+                <div className="EliminarEmpleado">
+                    <div className="scroll">
+                        <div className="EliminarList">               
+                            <Box sx={{ display: 'flex' }}>
+                                <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
+                                    <FormLabel component="legend">Seleccionar empleado(s)</FormLabel>
+                                    <FormGroup>
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={jeronimo} onChange={handleChange} name="jeronimo" />
+                                        }
+                                        label="Jeronimo García"
+                                    />                
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={estefania} onChange={handleChange} name="estefania" />
+                                        }
+                                        label="Estefania Giménez                    "
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={guillermo} onChange={handleChange} name="guillermo" />
+                                        }
+                                        label="Guillermo Pérez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={eliana} onChange={handleChange} name="eliana" />
+                                        }
+                                        label="Eliana Soriano"
+                                    />                
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={jose} onChange={handleChange} name="jose" />
+                                        }
+                                        label="Jose Gutierrez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={marcela} onChange={handleChange} name="marcela" />
+                                        }
+                                        label="Marcela Reina"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={daniela} onChange={handleChange} name="daniela" />
+                                        }
+                                        label="Daniela Ramirez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={camargo} onChange={handleChange} name="camargo" />
+                                        }
+                                        label="Adriana Camargo"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={colmenares} onChange={handleChange} name="colmenares" />
+                                        }
+                                        label="Oscar Colmenares"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={barrero} onChange={handleChange} name="barrero" />
+                                        }
+                                        label="Natalia Barrero"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={ochoa} onChange={handleChange} name="ochoa" />
+                                        }
+                                        label="Yiriam Ochoa"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={guacas} onChange={handleChange} name="guacas" />
+                                        }
+                                        label="María Guacas"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={lopez} onChange={handleChange} name="lopez" />
+                                        }
+                                        label="Diana Lopez"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={ospina} onChange={handleChange} name="ospina" />
+                                        }
+                                        label="Catherine Ospina"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={muñoz} onChange={handleChange} name="muñoz" />
+                                        }
+                                        label="Deny MuÑOz"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={quesada} onChange={handleChange} name="quesada" />
+                                        }
+                                        label="Estewil Quesada"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={forero} onChange={handleChange} name="forero" />
+                                        }
+                                        label="Diego Forero"
+                                    />
+                                    </FormGroup>
+                                    <FormHelperText>Seleccionar para eliminar del curso</FormHelperText>
+                                </FormControl> 
+                                </Box>
+                        </div>
+                    </div>
+                    <div className= "BAñadir">     
+                        <div className="BBAñadir">
+                                <Button variant="contained" color="error">Remover</Button>
+                        </div>
+                    </div>                   
                 </div>
             </div>
             <br></br>
-            <div className="CountCurso">
-                <br></br>
-                <b1>Cantidad empleados: </b1> <br></br>
-                <b1>Duracion del Curso: </b1> 
+            <div className="Contador">
+                <div className="CountCurso">
+                    <br></br>
+                    <b1>Cantidad empleados: </b1> 
+                    <br></br>
+                    <b1>Duracion del Curso: </b1> 
+                    <br></br>
+                    <br></br>
+                </div>
             </div>
             <br></br>
             <div className="BotonFile">
-            <Button variant="contained">CREAR GRUPO</Button>
-            <Button variant="contained" color="error" startIcon={<DeleteIcon />}>
-                LIMPIAR TODO
-            </Button>           
+                <div className="Bcreargrupo">
+                  <Button variant="contained">CREAR GRUPO</Button>
+                </div>
+                <div className="BLimpiar">
+                    <Button variant="contained" color="error" startIcon={<DeleteIcon />}>
+                        LIMPIAR TODO
+                    </Button>  
+                </div>         
             </div>
         </div>
   );
